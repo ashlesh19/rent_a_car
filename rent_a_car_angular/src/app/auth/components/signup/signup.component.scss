@@ -1,0 +1,20 @@
+// signup-form.component.scss
+
+nz-form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  nz-form-item {
+    margin-bottom: 16px;
+  
+    input {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  

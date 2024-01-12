@@ -1,0 +1,25 @@
+// navbar.component.scss
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #504aa3;
+    color: #fff;
+  
+    .left {
+      h1 {
+        margin: 0;
+      }
+    }
+  
+    .right {
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+      }
+    }
+  }
+  

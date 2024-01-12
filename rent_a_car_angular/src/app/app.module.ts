@@ -13,6 +13,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//import { BrowserModule } from '@angular/platform-browser';
+//import { NgModule } from '@angular/core';
+import { NzFormModule } from 'ng-zorro-antd/form';
+import { NzInputModule } from 'ng-zorro-antd/input';
+import { NzButtonModule } from 'ng-zorro-antd/button';
+
+//import { AppComponent } from './app.component';
+//import { Sign } from './signup/signup.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 registerLocaleData(en);
@@ -29,6 +39,14 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
+    
+    BrowserModule,
+    NzFormModule,
+    NzInputModule,
+    NzButtonModule,
+    ReactiveFormsModule,
+
+
 
   ],
   providers: [
